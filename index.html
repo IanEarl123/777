@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="book">
+      <div class="cards">
+        <div class="card red">
+          <img src="777.jpg" class="tip" width="400px" height="6000px">
+        </div>
+        <div class="card blue">
+          <img src="7771.jpg" class="tip" width="400px" height="300px">
+        </div>
+        <div class="card green">
+          <img src="7772.jpg" class="tip" width="400px" height="600px">
+        </div>
+      </div>
+      <div class="cover">
+        <img src="confidential.png" class="confidential">
+          <p><span class="inputText"></span></p>
+      </div>
+    </div>
+<!------------------------->
+    <div class="post">
+      <p>777 Precision Media</p>
+      <div class="heart-container">
+        <div class="button-container">
+          <button class="btn" onclick="likePost()">
+            <span id="like-icon">❤️ <span id="like-counter">0</span></span>
+          </button>
+        </div> 
+      </div>
+      <div class="comment-section">
+        <input type="text" id="comment-input" placeholder="Add a comment...">
+        <button class="btn" onclick="addComment()">Post</button>
+        <ul id="comment-list"></ul>
+      </div>
+    </div>
+
+
+  </div>  
+
+
+
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      
+let typed = new Typed('.inputText', {
+  strings: ["777 CUTIES PERSONNEL"],
+  typeSpeed: 100,
+  backSpeed: 100,
+  loop: true
+});
+    </script>  
+  <script src="js.js">
+  </script>
+
+
+</body>
+</html>
